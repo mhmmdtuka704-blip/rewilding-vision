@@ -1,0 +1,12 @@
+numpy==2.4.4
+Pillow==12.2.0
+PyYAML==6.0.3
+streamlit==1.61.1
+opencv-python-headless==4.14.0.94
+torch==2.13.0+cpu
+transformers==4.57.6
+safetensors==0.8.0
+pytest==9.1.1
+rasterio==1.5.2
+affine==3.0.1
+pyparsing==3.3.3

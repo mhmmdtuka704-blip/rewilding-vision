@@ -1,0 +1,22 @@
+name: Bug report
+description: Report a reproducible application failure.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe expected and actual behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include method choice, image format and a synthetic example if possible. Do not upload private imagery, coordinates or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python/package versions, and relevant nonsensitive error text.

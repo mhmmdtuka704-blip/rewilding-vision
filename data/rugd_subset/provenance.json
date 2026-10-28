@@ -1,0 +1,2455 @@
+{
+  "dataset": "RUGD",
+  "original_source": "http://rugd.vision/",
+  "mirror": "https://huggingface.co/datasets/WilliamBonilla62/RUGD",
+  "revision": "ee289541664a8346a869ef81eeca93a76f557120",
+  "split_policy": "Entire sequences disjoint; uniformly spaced files; exact duplicate hashes rejected",
+  "counts": {
+    "train": 160,
+    "validation": 36,
+    "test": 48
+  },
+  "total_bytes": 183245437,
+  "rows": [
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_00001.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_00001.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_00001.png",
+      "image_sha256": "e257c1bf340d9264489ccc0c348de72be1a34b4b73113824390fc6992fcfe602",
+      "mask_sha256": "44c9b275c862d2b044949b50d61a57cdd2b22027415fdb79e43e595373c4ce28"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_00206.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_00206.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_00206.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_00206.png",
+      "image_sha256": "f9c9e68e18b83d9b440eca247307325995ac4b0c39ac5af06b5c27dce3ff93d1",
+      "mask_sha256": "eafcfce5c19b096ff5f8d9cf340d72f7dcd43aec734b8f2761c69ab3e28dd239"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_00416.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_00416.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_00416.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_00416.png",
+      "image_sha256": "1413d16171591edc8bbdfb62828ca884579e4ef619bc59509b428803305be2ae",
+      "mask_sha256": "d05ceaa9a73d3de27cff585c310699614b5936384a69d4d30f1350a394c1c239"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_00626.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_00626.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_00626.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_00626.png",
+      "image_sha256": "c8471b8ed98abf61a113f6e790bddd21915035f36af222bd7d9e71a6ac0e7057",
+      "mask_sha256": "5f4e33447709ca02e5d7a750932c8abc5eba6b7b95304c8d5260b4c53f0d52e5"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_00831.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_00831.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_00831.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_00831.png",
+      "image_sha256": "af505c157c4de5e8f6481577fa46c9760adb53b7eaf1337f870e7f3704c35109",
+      "mask_sha256": "333b8f3fbbea1f602b4f7a466d523df1823cecf847d13afea65b9d955a562f0b"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_01041.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_01041.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_01041.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_01041.png",
+      "image_sha256": "022726f8c910258845e9ffc2aefecca0bab78290b708b59e5b9f7612efa149b8",
+      "mask_sha256": "1b0d433be6f531c06a5d00b0bf1a52b9357d931fc27b57c749b213552dbdf598"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_01251.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_01251.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_01251.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_01251.png",
+      "image_sha256": "2907da48adb61c960a16078008b9d9a245c732b1f26ba5d4cc9c8d39fb6cf42e",
+      "mask_sha256": "5cfd233f53dd0536d4658bebeff3526f48ad53cf2c01167a52be60cb7f0e8a97"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_01461.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_01461.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_01461.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_01461.png",
+      "image_sha256": "ae119a232090ce860eb96e345a8821b49fc0b48caecba5f17eec191af7a12370",
+      "mask_sha256": "7c58f7e52963b94c25d6847a1f191f9c3d6caf5ca1dae8d79cd56e03e055535e"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_01666.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_01666.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_01666.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_01666.png",
+      "image_sha256": "d534bdf0562b3c8bc5354cb3613ef4970b100e52085d10de1dc952f019f2ad5e",
+      "mask_sha256": "e1cf9d16b40056d186616e6b17c68d2ddf92c9f4cdf828d3dc1bacc0d8dcc36c"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_01876.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_01876.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_01876.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_01876.png",
+      "image_sha256": "fb54a096f035d4df214a6f8f41b76f328327e2b5fe5b11b09505e59f7f73f886",
+      "mask_sha256": "5968c9a16dad7687bfee1ca639b5afffee1f6fbda0190471bc96f3f5412afcb4"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_02086.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_02086.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_02086.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_02086.png",
+      "image_sha256": "ef6e2eaa60a1e8af91d241759b66834e1deca6ab0a711ac207f3f0ed31ec3445",
+      "mask_sha256": "2bbe9be62db6e111ba6c60fae62479ed756d483a74e2d053c6f7dd8b5dda2a59"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_02296.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_02296.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_02296.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_02296.png",
+      "image_sha256": "3096a4c27ce4faeef92ae1c637e69be96dc6d949672450c5dd371cb385322fc3",
+      "mask_sha256": "2b83cc5716073804b5764c2be54a153781552a2b7685966b66562a60c9bc1843"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_02501.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_02501.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_02501.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_02501.png",
+      "image_sha256": "386fa7a3be022f26f34e63b56242e324f50243008508f1ba4d39d1f20a46a9db",
+      "mask_sha256": "99933b0cd1dd995507b3718fe1a8bedf4e378cbb05acb8ee121a5468d5186321"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_02711.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_02711.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_02711.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_02711.png",
+      "image_sha256": "f13d1517fe215a027b043c06678a2a220c04e0dbcdb4884e3f83fdbe5fb1bd87",
+      "mask_sha256": "6fa65802e67121491cfd51074f7de9ee49b2c8c680a69d21b1ae8448e57a1a06"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_02921.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_02921.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_02921.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_02921.png",
+      "image_sha256": "0c973e1e65c91533de0da64b19054da3c813c30348c6d6c06be33017531e8acd",
+      "mask_sha256": "ecd80ce03a12cc3ec02ba186cf2f53290e91eb0438ddf7ecc70696b9929d2847"
+    },
+    {
+      "sequence": "park-1",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-1_03131.png",
+      "mask_path": "data/rugd_subset/annotations/park-1_03131.png",
+      "remote_image": "RUGD_frames-with-annotations/park-1/park-1_03131.png",
+      "remote_mask": "RUGD_annotations/park-1/park-1_03131.png",
+      "image_sha256": "55296ee9dbcfc76c08af2021bab2ab039fcc709b58ac98d14475fac5f4062c52",
+      "mask_sha256": "68281b4678bd703545e11941c28219cd900fee7d1d12299fb8a0a4bd5960c515"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_00001.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_00001.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_00001.png",
+      "image_sha256": "2cd74089599dfcaa80fd87a756ec926eef766b5241d339eab4ec14491141d311",
+      "mask_sha256": "642dcb85ee83adbaa61b599207179d4bd74273df016bf2c2da52b50f1c53061d"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_00216.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_00216.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_00216.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_00216.png",
+      "image_sha256": "5bad49296ad64104581120c7452293c65b8978f3f43326673be1c942afb922d8",
+      "mask_sha256": "258dc02360ee675781adb7d7129db9ec525ae1f80687210efa2108a3603ac1a1"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_00436.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_00436.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_00436.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_00436.png",
+      "image_sha256": "2a7c2abbbba0af35cc02040c0fd41eed6b13e3e9fc823bb524ca95b6988d0795",
+      "mask_sha256": "b488c87d1b971680148ca2df6f850791b18a6db2c4e6f231197fca647c0c62ca"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_00656.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_00656.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_00656.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_00656.png",
+      "image_sha256": "3259443799f73b0a9a4e64bddac83c95d67e4ce0ffe6933a1e280dbf054f58aa",
+      "mask_sha256": "06b3ca1e101a75c4cd519b4a6d1057fcd1a27eb188f4535d209f0b18859514fd"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_00871.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_00871.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_00871.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_00871.png",
+      "image_sha256": "6b7b826d36279dcf1a4305294745f41439710f8ed8d6885fb3d5a85d799e1653",
+      "mask_sha256": "3be5f6cdf77bfeb847f73990285e637243477d8a23efe2841e81c16bd2fa6570"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_01091.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_01091.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_01091.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_01091.png",
+      "image_sha256": "5b58ab1dc659dab914e33c74fcb4b762952b52a8fa653878661e26a4eab5c21f",
+      "mask_sha256": "d645ee4783c2f3a498ffea071c5d6b8424ad9dacbcc0be235538e80e2040bb36"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_01311.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_01311.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_01311.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_01311.png",
+      "image_sha256": "5f10f4b339c4327797702da07fc2a7bbe9e0b77e6ddb7b4c55d928c9276c9354",
+      "mask_sha256": "00de0031ad1d9246129f497aea2b504e7e203d0f423aa27fb4ea84cf90de56ce"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_01526.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_01526.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_01526.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_01526.png",
+      "image_sha256": "ef5a9947cdcb61774441188db9226203cac43e9b7abd0039101ab4277c750b6f",
+      "mask_sha256": "8807b676b256dbe9c71ba9324842c96a90e92585a46c86be834cc533e70c7805"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_01746.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_01746.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_01746.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_01746.png",
+      "image_sha256": "8dd4be8fddac8ab344ec66dcadb9818d682d87b86c1f5f25d0c88724d188868e",
+      "mask_sha256": "1cc9d04416971a78643211e683deb15099d058aea4a0669d338830559cad847a"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_01966.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_01966.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_01966.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_01966.png",
+      "image_sha256": "2b24e717ed38257a74957e692ce9d45721d5925e6c90f6d88eaa19232f91fe49",
+      "mask_sha256": "1743a0a1b34a68f54b5e7a3fb1bf0c8d138d7b1dc31450220b7b24a1c22e9ab8"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_02181.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_02181.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_02181.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_02181.png",
+      "image_sha256": "d7ec678d0d41d1ae9faf1fa8ffa6e5f3c99a9d930e86712acd264250a7c8cf52",
+      "mask_sha256": "69e27d855058f4a729376c8683630f36fb9fcd7f7bd0e890fe343bc508b7418a"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_02401.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_02401.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_02401.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_02401.png",
+      "image_sha256": "6d767e5c3397ff2b075f6304d685d0e9d2c5d11aff7887b94fc2dd62a2418330",
+      "mask_sha256": "222d91183ed34ee80473ac79337b501229029761d268f165d9d700be01e437da"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_02621.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_02621.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_02621.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_02621.png",
+      "image_sha256": "7abeb6cb0b48b52cdd3f869f927b50b0a4960fe982a22f638ebbbbcbda4a83ab",
+      "mask_sha256": "f2d24ea4b8c1e8ede78613556db2873c937b1df2b56b8de067defdfde55a03ac"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_02836.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_02836.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_02836.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_02836.png",
+      "image_sha256": "2e5ee12bf188abba5e8ac92110bc05183b01b1279ca1e9e607ed96059f7c7d81",
+      "mask_sha256": "a71e95cebefe02339f2090c795dc7dd77cfe153249fbae2a55caaafffd9d2053"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_03056.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_03056.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_03056.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_03056.png",
+      "image_sha256": "7fc0e60422d1d0d5009f75160672f497c615d22b866aced8413da4eca6d56635",
+      "mask_sha256": "a228b8c2898c349eb5c7b74831127077fc9c637b57a45626d94473a962c89de2"
+    },
+    {
+      "sequence": "park-2",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-2_03276.png",
+      "mask_path": "data/rugd_subset/annotations/park-2_03276.png",
+      "remote_image": "RUGD_frames-with-annotations/park-2/park-2_03276.png",
+      "remote_mask": "RUGD_annotations/park-2/park-2_03276.png",
+      "image_sha256": "db5fcb1ab7a8a7a466ac54faa5f66293b8ddf7fddd97015fe228264ec836fd0e",
+      "mask_sha256": "874e8771821122ee5a25cc1f8dc1078fa8eba6d90fa86f60904ebdd11e55a346"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00001.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00001.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00001.png",
+      "image_sha256": "04c9bc79e5a17aaf05f7e969fa32cb8a18b7aa7b6db9f4f42f39e8d2404dee19",
+      "mask_sha256": "0e19ba7dcbd3b0ad566e6ba2bc9ed3bf3ed953432bbd770a3ef42a2a83909bc8"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00116.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00116.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00116.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00116.png",
+      "image_sha256": "d83e5d3de50ad80e749b52d2e6c3c9517700109783355a556dd6bdfddcce5ec2",
+      "mask_sha256": "a01dbfed879f228851073a56b0e88e0d7113862cfdea21f2475fb0514eb63a7c"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00236.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00236.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00236.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00236.png",
+      "image_sha256": "24b94a720eb206a83c956df7237325cb20fc4bf58b32da121a77cbb28b49c5e2",
+      "mask_sha256": "1b736a8ac695f4b60efb38495f2390d6932e1663a1e001c4038c6f3ca2c8b15d"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00356.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00356.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00356.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00356.png",
+      "image_sha256": "6d905eb2c52c13d3ca596c840537e814ffb3e8e3889057a325b318b4e863128e",
+      "mask_sha256": "4a6c2746ac081fd2fce458754f77ef97b1810173bd8e6c369cbbbcdfb87eb472"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00471.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00471.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00471.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00471.png",
+      "image_sha256": "5744e9288df6dbad9e04ad503586a3e7df57519a6b29f04853bf8dedf671ab3e",
+      "mask_sha256": "c63171e712d5aef9f01b7f153144b7cd0d1352da1d4fa816771563d3ad69e062"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00591.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00591.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00591.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00591.png",
+      "image_sha256": "dbee71eaaf9d2e598e624bb67c7f1612163100fa42e99a9504ca8b8eccbd771e",
+      "mask_sha256": "0793962e393ed88f4b38dd56e4981fa7714005d418c45f8f02ae3fbaeda211e7"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00711.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00711.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00711.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00711.png",
+      "image_sha256": "a31bc816bce26ed7569cebf4ba0d50985b3ea73a28fb4f4b75f8c510e6a8d7d8",
+      "mask_sha256": "f20348f88a80080592f2409d06e67db39797b1abeca7fd64e3f9bf39085231b3"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00831.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00831.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00831.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00831.png",
+      "image_sha256": "e2a2b296a2f0acfd3cc45d7b6f3141ccf51afe2c4cd6e254796231d194e8aecd",
+      "mask_sha256": "a148e346b7b60eceb9c01650266ffa8bba6eb153d4238e8924b8d1360188edff"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_00946.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_00946.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_00946.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_00946.png",
+      "image_sha256": "e312695aaa6290be4602a7a09a6b5671915e296df0380ba198465cc186455b32",
+      "mask_sha256": "d52ba1a1af5836799a2445fbbdec196c43b17392533fdf5bbc78e6b900068e95"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01066.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01066.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01066.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01066.png",
+      "image_sha256": "209141943d0438eb95d3457925efadb59fbec9d0d98fe4b053a7aea2a3050379",
+      "mask_sha256": "ab678c7bd7d36a59730efc8e8eee76849a70be4bf6cb688dc74ef62b28e51147"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01186.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01186.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01186.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01186.png",
+      "image_sha256": "78b81cc028bb3aa7271a957e4169b8a10ac5ce79da7cd0167f6452a6070b8ae5",
+      "mask_sha256": "a03fb3afaecfebd2f1bfb83b10a97c2e1a144625209143c739eced4df1ca367d"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01306.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01306.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01306.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01306.png",
+      "image_sha256": "b148fdc84e77b1be91e463ac16a64dafe60dcca98f6963008df2d11e01813be9",
+      "mask_sha256": "124418d95e54ad6c9282b42a4d756239ac507bd105d1a678235b9ac65cffa23b"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01421.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01421.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01421.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01421.png",
+      "image_sha256": "0f0e36c532246a0fda6d178b57b73b2e5ce5308193622d707920e43319be9d8e",
+      "mask_sha256": "ff0fe9d5347271817de7d770a4cc7cdfbcef9327cd6e82631d9495d1f8f82839"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01541.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01541.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01541.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01541.png",
+      "image_sha256": "88cfe35ba78d3b34d61eb707abbbdbc53fb1485b439a888ba3c5632433695171",
+      "mask_sha256": "27bd4c822cefb93d27f45019cf0d7a95025f402eb2fcbc67cc322cea2e1b4f21"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01661.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01661.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01661.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01661.png",
+      "image_sha256": "dcb06f9d61b278f862604fcc33ebda54e20d17c5a81932f222cfa011e9b18923",
+      "mask_sha256": "6238f47ae0bc49763396a9e3f59bca6242ae12e281aa11d0fd38a6224c936269"
+    },
+    {
+      "sequence": "park-8",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/park-8_01781.png",
+      "mask_path": "data/rugd_subset/annotations/park-8_01781.png",
+      "remote_image": "RUGD_frames-with-annotations/park-8/park-8_01781.png",
+      "remote_mask": "RUGD_annotations/park-8/park-8_01781.png",
+      "image_sha256": "ea16db87c00b87e26b03efc8812b6a1811f5e65167ba214b869e9eec83c1557b",
+      "mask_sha256": "6208cd9b93beb08257554ef11653ddff2b66419c36f8a6eee03ffb32fdd31583"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_00001.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_00001.png",
+      "image_sha256": "8167238080d64e6f537191787015a626050cc9dca3615d99e77a5f0f4eef2754",
+      "mask_sha256": "159daedc703664a3776e0a67c47c404967879344b2ed4db8274ce8ca2a9e2f84"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_00251.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_00251.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_00251.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_00251.png",
+      "image_sha256": "fa1f8f5413d00f174c4adb8c872c8e7345db6a0699a5d4fd80a49ed6bedcc5fc",
+      "mask_sha256": "aa1650f6cced4f34051109dcaa700505fa0461857bcb018dfeeb86401df970e8"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_00501.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_00501.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_00501.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_00501.png",
+      "image_sha256": "9633f0228e9501645b333a5ef7a7b73d5249cfd0afe4631bb86f3d52ddce5f98",
+      "mask_sha256": "993d1d6291f2c5c5830eebd97e8d1500ca8fe29d95a3a88b7324bccb27e7ba28"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_00756.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_00756.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_00756.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_00756.png",
+      "image_sha256": "7175e15104e837de7c568d978d5bee7eb8aeb5c734a1362b549e4e481667c9f2",
+      "mask_sha256": "dd8c123470fa4662811a34cda800e92bf81fd5e4796a423eceb45102492e0411"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_01006.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_01006.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_01006.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_01006.png",
+      "image_sha256": "f73681e7752c1b71718c1e2d672f492f96a2ee90eea92175d2512fa610b18ec2",
+      "mask_sha256": "851a1974ca3e6eaa219ad5eb0e53234993a8b60ba5aaccfe53ceb7f48efa945b"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_01261.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_01261.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_01261.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_01261.png",
+      "image_sha256": "1f6ea28ebb6a68dabc66ab8051bda3cab9a727703e767e51e63e1fd486c96ead",
+      "mask_sha256": "68d697f309fca79475ec9f7521bac75d18e093512703b03daccb6638ede31382"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_01511.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_01511.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_01511.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_01511.png",
+      "image_sha256": "e09f40514e7eaf68d518dec083fd2779255e4a3554f4986139e5506259a6590c",
+      "mask_sha256": "065927bb7286f63dfa52b1ee1f05f7ce37d28a4ca13d75ed58b294f28d24eb64"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_01766.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_01766.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_01766.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_01766.png",
+      "image_sha256": "af2e1113cf3b1ac0e7caa1e074097edf0befb2ad9594049e3357485f1fcf681f",
+      "mask_sha256": "d7fd9f6489153c81c7e7bc8c6a5474f92bf9b9d0186c71b5ae35c14b80e3ef5b"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_02016.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_02016.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_02016.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_02016.png",
+      "image_sha256": "39ef2d561536ba2578a9dfdd1712699ede9b1a241541660c66754a125f5cf27b",
+      "mask_sha256": "db81f8f51f3d2a57efb87edd369d42a704f3806ff82c6ff310040b9570c19193"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_02271.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_02271.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_02271.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_02271.png",
+      "image_sha256": "e79dd65add6b9c016fb40705b2372598e44a074fa31245b05940893acc90439e",
+      "mask_sha256": "21ed360a0f44eec4e7c04796bec8b25042efe0c5167ed037d7b5f662cb8cb9d9"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_02521.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_02521.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_02521.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_02521.png",
+      "image_sha256": "099bc049320d4fae61aa7bbd3df3a320c574821056437323cc2c12a407bd9f61",
+      "mask_sha256": "512f1c40225be35166cdd551a21841bb143fc656d0570d85b36db4613f769447"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_02776.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_02776.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_02776.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_02776.png",
+      "image_sha256": "d9f0d8069a883884b0b4aeaba75c22c43cadfc3e1df4930dd83d40d8b772d258",
+      "mask_sha256": "29879ae69853e631db5a1d67cc883346f2d736d6629b9c3d1b15ce49b738742b"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_03026.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_03026.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_03026.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_03026.png",
+      "image_sha256": "42512279a042bb21360975871c300b3c9b10462fd09f82935cf960cede3dadd9",
+      "mask_sha256": "b5496b7d45303ceca4fecd653826b53efb6e84ede05a15bd38e6037e99d4ca14"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_03281.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_03281.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_03281.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_03281.png",
+      "image_sha256": "9a93e84d0b97bde0990982302b8f0673e91d350f509edded0e0e15e6735a581a",
+      "mask_sha256": "8d2b29ce93b2ffc1813a96c75881523b3e1895f6ab4c01df8467b15d359ccdc4"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_03531.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_03531.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_03531.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_03531.png",
+      "image_sha256": "00eba3ccde3eea0375ebd70db0a1e940d28424ced14c7af05fa1865bfff199b3",
+      "mask_sha256": "976dae9e26af447d9c608788d38d9d965f6e86bc610618fb7e4a8e36ff4ada08"
+    },
+    {
+      "sequence": "trail-4",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-4_03786.png",
+      "mask_path": "data/rugd_subset/annotations/trail-4_03786.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-4/trail-4_03786.png",
+      "remote_mask": "RUGD_annotations/trail-4/trail-4_03786.png",
+      "image_sha256": "f781c26a51e2567bb4f1bd1c969382e4045ee7187aa38cb95efb78f161b3d5ae",
+      "mask_sha256": "a25b0e45bf9a7364b85478fc0e97847bf6e6094ff1ae9ea356b75c8e7184a933"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00001.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00001.png",
+      "image_sha256": "e33dcf52ed400a9dae2129dcc9d0aaf1fa0fc269d91a8930f17f932b1e79bda0",
+      "mask_sha256": "648ebb2bafdab1e5de4e65d48860b545a147cc2099cc5b79462aa4699fdedfec"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00126.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00126.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00126.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00126.png",
+      "image_sha256": "0887c991ac69fcec2675a60cf3c1901ceda7ebcc77b4b5bc2e613cec011e0138",
+      "mask_sha256": "8e8344224466a8e2ccabd8ef4a90223264e27e603c328cf961f5b9a08adabd6f"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00251.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00251.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00251.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00251.png",
+      "image_sha256": "2f1da5e2d4b767cd36199ca19176e98c744b01a9dc534747e9b4eeb69c6ff24d",
+      "mask_sha256": "6b5f9c1c44322197d7b1c9abfc47ce27ec4e0bc038fdafe538c9e96d33e80977"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00376.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00376.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00376.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00376.png",
+      "image_sha256": "e8797a728572912efbbf6de403d132325a46ade2007c62832faf712f6bb3e1a1",
+      "mask_sha256": "0fa79a175d1f1ffd4bbdd16a9e5f2b85f575e7895a01f4a86f15e80eb513beaa"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00501.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00501.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00501.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00501.png",
+      "image_sha256": "9d878499ac2660da3f55f873dcf1e5118dea75be5236302d514d82133100f998",
+      "mask_sha256": "29c843519a6709b4942416ea1301922baf157ed56e77581f1e76f48b8df18846"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00626.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00626.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00626.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00626.png",
+      "image_sha256": "78ed9083d994fe0f0a214d28f4e90944d4eb820e1ab961988561a1eef1f2d6d6",
+      "mask_sha256": "9ffdd0c846ff44aeca3520b5b48eb26add616edb7520d60670f36688b2c9aa87"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00751.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00751.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00751.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00751.png",
+      "image_sha256": "e7d1bc5363f862de490aa202093321221e78bc619080c8071b8932ec84a07701",
+      "mask_sha256": "a8dd10fdc4134d52bcbe74dd89d2d93818c7a7bda31fbc3755b611ff77845756"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_00876.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_00876.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_00876.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_00876.png",
+      "image_sha256": "46f7025789b8a2bf44c24febb9c4363c7192bd88d92ff8d58c031dc010e7a4cc",
+      "mask_sha256": "26a1aeeee3f89be1d9f0c397e9dfc35c3c436a524c6192e86d4488bd816cb888"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01001.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01001.png",
+      "image_sha256": "39172a15e046e5ef02558509260cd448573b00b056a23639ae1d595c38c7f9a4",
+      "mask_sha256": "ef450ae65b6d0d9e094fcf70d1b7020f6a2c2fdfacdacf9828886b50869285dc"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01126.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01126.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01126.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01126.png",
+      "image_sha256": "417ba03dffa50519bcf31addcc64d184da94b474485db5996d1ede6cbca0954a",
+      "mask_sha256": "b9d4f6cbf78836b433df7a5ac11eb6184002cfb394dc6627c3a27dc7e4f8f2a1"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01251.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01251.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01251.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01251.png",
+      "image_sha256": "90b613b3d5810eef4dc4b1f1556c979a1938708c79e5fa7ecd9c459a18bf5713",
+      "mask_sha256": "510cb0678890434b65eddbc6ebf12fc0a6e8e6159465d9ac2fbcb9bea61c29d7"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01376.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01376.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01376.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01376.png",
+      "image_sha256": "0889982d6dcd24aabb82d9d2140a231ec0e0243d508e14e3e34bf6cd18484f6b",
+      "mask_sha256": "1db6ff3e19e6f1858c7a42086d8a7e7d09122ea6f8748b762ddce97495b232f8"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01501.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01501.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01501.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01501.png",
+      "image_sha256": "cc747e54c0580724556d23ac7524ee2c84b0b1740936a8ee3258427f501ccd3f",
+      "mask_sha256": "36979970569888dc5ab1d933559fa466031e379907d636a8f57053a545cd1352"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01626.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01626.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01626.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01626.png",
+      "image_sha256": "b01b14cff32180cce9933fb5d95721809f18cd34c2bb41cc8fb0a7064e39c54a",
+      "mask_sha256": "5b13cc1c437beb8ba646d785f4750a2d2279a1d948f3d0588461e911d10713ea"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01751.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01751.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01751.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01751.png",
+      "image_sha256": "58ac0fa6a40dd6064bd4b84fccd5958e79928e5d9fdf97ad4cc9fc80467c9939",
+      "mask_sha256": "105e3ccb5bb9b2161fe11555f7e71f1993c361ceb5624185ec3f6ef19a609f21"
+    },
+    {
+      "sequence": "trail-5",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-5_01876.png",
+      "mask_path": "data/rugd_subset/annotations/trail-5_01876.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-5/trail-5_01876.png",
+      "remote_mask": "RUGD_annotations/trail-5/trail-5_01876.png",
+      "image_sha256": "a443c450da6cd9a1a0bec48a711372f762aa99e5287fdb2c52f2e70b26dfb2e9",
+      "mask_sha256": "a0ef03a022cd6abd30d5c4e24177962b4114df13dc8e8c11e07fe145fd341dc4"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00001.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00001.png",
+      "image_sha256": "b885707260d33deeba29fde6ffaf4a9870411ab1bee8692a5998649b8a71a48d",
+      "mask_sha256": "2eae700fe67ad22e3dc22b799d4fe9f2a1f97d82f28ca76461ddda4c35e301b1"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00146.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00146.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00146.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00146.png",
+      "image_sha256": "257cce54e0f65ecee8d926b83ecf2161b894db027b12c1ec250ebe0025272417",
+      "mask_sha256": "5ecf3d9fa4592a80771ad9d47a161a4aa45213fd28488e4a7f430094fbcb0908"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00291.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00291.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00291.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00291.png",
+      "image_sha256": "9bc38381737219034bcd668530ada60d3ece7683325a8c7b82c90cbdaf531734",
+      "mask_sha256": "734fca0ac7684f54019f468e912958ab4ca5ac121cfe804dfb5802d8e03d131c"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00436.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00436.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00436.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00436.png",
+      "image_sha256": "af230df02fcf152e188af4d3ee012a25f9d61127c0170b3a80e4d74df2db46b2",
+      "mask_sha256": "0ad15232142fb4e23c8f2a21db36c394b068f5b258f081faeff785ceb29b07e1"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00581.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00581.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00581.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00581.png",
+      "image_sha256": "a109c569a03e07990cfa095bad384de0ba2fcbcc34641aba22124fcf3661fc31",
+      "mask_sha256": "dc21badd5d3c623809074870d36ff56747c6ae51f31a48d96f9f6f74480a0cb3"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00731.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00731.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00731.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00731.png",
+      "image_sha256": "f906fbe540c08dab016612e0d8becd0c630adf7b8852ed6e2b592fabf0ad1952",
+      "mask_sha256": "3cb2e8023e8cb4f12bc8c8669cc2c692acab8741e47f4e72dd5700b63f5b5e5b"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_00876.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_00876.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_00876.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_00876.png",
+      "image_sha256": "0092b35e3518b80f2b060b55fa6bab8d490d817230411ce10d74351f186987d7",
+      "mask_sha256": "73add0da817655a44481595473f5bbfc1834851deac1cf91d7c6e6c53285071a"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01021.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01021.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01021.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01021.png",
+      "image_sha256": "c8659399e9beef346968e4e8823a33ecc27a616f46ecc32c2f403e13c9084c80",
+      "mask_sha256": "795556df513f4d74f5305315df8fc99563cbfb1ccc5022b25f77d80e5322c7b8"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01166.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01166.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01166.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01166.png",
+      "image_sha256": "db9b0e415fa471bdde5e247fe1d34ded6b2648329e0d9678f7b1ac3e978d8dd1",
+      "mask_sha256": "b3afb04cf544b4c75022ffa43982d11afd260490820cf78a44b24403ad99c407"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01311.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01311.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01311.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01311.png",
+      "image_sha256": "abc6c0f81dd32c462e25c6f73267994ee92a1c788284f6727f06365b07c49243",
+      "mask_sha256": "28380147a75cadac48228cf46948f8b9ffce36f8f7cfceee53b5a3e69c99e6ca"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01461.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01461.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01461.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01461.png",
+      "image_sha256": "0e971a367696431681f9487e0ce35cfce2001c89a2b4e970c1af01ead2ebf938",
+      "mask_sha256": "443da5ec26a0f0f320830f4e5a8395b6ce2d65a0a80575cfe50523b8bebc55a9"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01606.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01606.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01606.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01606.png",
+      "image_sha256": "04a9b28d3e0a3a02c9b67b069265b4a425f6320c82d8f7f8534214f8015a852f",
+      "mask_sha256": "fd46acc21113840de8333a041e331713bef9a13cc7f2c4c03f9eca38bb3fc326"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01751.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01751.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01751.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01751.png",
+      "image_sha256": "68f9f6954b458901561554edb73bd71707ad35790c10f10dca90fb0dae9e495c",
+      "mask_sha256": "db454983bb758441320983b63e33811f702f266947d4f65b6bc86ce516eb4cdb"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_01896.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_01896.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_01896.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_01896.png",
+      "image_sha256": "5853253f4ad7d7fb36026b64cf385e1558b219336a09cbe685272ae0925c8ee6",
+      "mask_sha256": "eadadb79ca11ef9cbab573050b03efa16715ccd08250200a1943d5e71b061edb"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_02041.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_02041.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_02041.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_02041.png",
+      "image_sha256": "b0c36093b86beb8dac19dd548857594816bb73a842efc4d55568b7767b187004",
+      "mask_sha256": "79ed3fbfa4516917af9304bc6e411cda28f7719593346862eb59a9673e7c8372"
+    },
+    {
+      "sequence": "trail-6",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-6_02191.png",
+      "mask_path": "data/rugd_subset/annotations/trail-6_02191.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-6/trail-6_02191.png",
+      "remote_mask": "RUGD_annotations/trail-6/trail-6_02191.png",
+      "image_sha256": "a0911f51c6c82678f8a1c297b1fd91e04dde3b9e1b12fe8fe1e78de0d782b877",
+      "mask_sha256": "86622df8ce409ab710b937bc2e42d48581b00288a662d7863be387f4cc16abbb"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00001.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00001.png",
+      "image_sha256": "3a8b188244a02505c5272477214b00b9ed36972e2fa350e3754f1f609acb1d6e",
+      "mask_sha256": "d458aa3ccf25c316391df4ce841977bcfbd26b9528ae5999a24e59c76ce064ba"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00096.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00096.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00096.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00096.png",
+      "image_sha256": "5054eb4104fa86c31694cc98060b5e53e7ad5ce50cf607c0061d763f676acc67",
+      "mask_sha256": "3140383d31d89fc5a507d975dd107a8904aead0ef86316dd0490834088913970"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00191.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00191.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00191.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00191.png",
+      "image_sha256": "b53010741a6c0bd25eb59ebc2c4134c7b166700b5f4c520459277d02c8ee4022",
+      "mask_sha256": "f959c800ab9507247163688d4ea38f949338bd28d422d4d1b777b74097ebc3cb"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00286.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00286.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00286.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00286.png",
+      "image_sha256": "145902b0a3f2092347caff876fd9eec2fcb7ed7edaf6fc9b64e6642706852d38",
+      "mask_sha256": "dc47dd413c02dab95957f887764e78e9b60b5f6a5ed42af14d0f1f4234b1a339"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00381.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00381.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00381.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00381.png",
+      "image_sha256": "914dccd56eb6ab848f94d20978a2e11ccf58dccdd50efd34a4b3e6e7da4bd9f2",
+      "mask_sha256": "7dbab748ba4ec0de3696f15d1ca9aba87015f356b3600e0643d8ad0c85d0265b"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00481.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00481.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00481.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00481.png",
+      "image_sha256": "3cc3c7368f06a6f4bbdd0ba6dd05692cd3a53a75253126789cb71a0ee59a085e",
+      "mask_sha256": "5978375f98fc415669383b1005d12f21260a93bc39be1bc16c1908af012df8ec"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00576.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00576.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00576.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00576.png",
+      "image_sha256": "a147354193333c9d2f1d9d38586c784fe5e76b5fb2f5b52f31c78b5e7cfb1544",
+      "mask_sha256": "f0161e861d25856d17f27c19a08e8d9975a8570992f653e716377ebc29ea4ad1"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00671.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00671.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00671.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00671.png",
+      "image_sha256": "182db2bb07f52aee4281e3f624ec2875de09b2fd159897ccae6b794b91a952e1",
+      "mask_sha256": "1fe14fcd9d318b91f83b027e0a1f7ba5790e709c86bbd511f6a0c75f74b58491"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00766.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00766.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00766.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00766.png",
+      "image_sha256": "3dece794ffc2e74ea95b8ad7aa2de5c5145c57395fd6d551fa8b09a41c3e4e0a",
+      "mask_sha256": "d122808f58b16e379f74d0a911b30ab804b3d42d5eda156fd4d9a3d4f3613f4b"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00861.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00861.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00861.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00861.png",
+      "image_sha256": "2c7261fbf7db1c7ba9f38154d5f96f5cc1ac36be62d3f3bd5bc64a7aacee9ab2",
+      "mask_sha256": "1c4399bc6ae1fa2cd173986ad3ccd78a12c3f796fed583b4367f3eb8ef102ba1"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_00961.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_00961.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_00961.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_00961.png",
+      "image_sha256": "d481ab5807067d8bcdf051929975eff6fafd3621cd96ef9bd3c930fcd0c25d6b",
+      "mask_sha256": "66f93bddd42724686a9f6ed2644aeb75405ccbd8d4ad5500f8ea9bda95d50594"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_01056.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_01056.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_01056.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_01056.png",
+      "image_sha256": "0d85d6eff5862c70113a67491685cfde925ba5fb599d9da0ad616e2b5917ed3a",
+      "mask_sha256": "99e52cb0d1f568ecea80b028c0f0a0501617f95fcaa198f222e427e9afb48b98"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_01151.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_01151.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_01151.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_01151.png",
+      "image_sha256": "9d0def957c185b426a237825b9e07e426243d24521abb924df4dfd9335c9a4a6",
+      "mask_sha256": "9dd115c8609f88edd67e174b6f063ca2fd8d77897dde1d43bc1bd0ea0b9b4929"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_01246.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_01246.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_01246.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_01246.png",
+      "image_sha256": "14653b312a5be962c75e6b59a639d32315f602fc769db8152ea9fbe6a9b7379d",
+      "mask_sha256": "8bf7cca28928a2bd1225f59878f8430a6c0bf0b23d332e7f6333072de57f4e2a"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_01341.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_01341.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_01341.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_01341.png",
+      "image_sha256": "20d38de6b6b966ca06195c23599d2845072b6e5d8a732d1d8500c411552c6561",
+      "mask_sha256": "3e88ba741f0853caf10ab55a98e1c04deb09707ef4200d54c62273648847f0e2"
+    },
+    {
+      "sequence": "trail-7",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-7_01441.png",
+      "mask_path": "data/rugd_subset/annotations/trail-7_01441.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-7/trail-7_01441.png",
+      "remote_mask": "RUGD_annotations/trail-7/trail-7_01441.png",
+      "image_sha256": "2b1112e76dd9b488e811573ff10e836ce3bb3ef3e81771eb6692093a41a1bb3d",
+      "mask_sha256": "fa55bf7dd88e735edf950700ed715e05ad7cb929cc655556cca6ea5d816d70e9"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00001.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00001.png",
+      "image_sha256": "afca422065a3d80b7f8c993e35d396116c2a6cfed7962dad0eb2bafff419f13a",
+      "mask_sha256": "c9544f286475ec476c875dfd7aee33d9f2a682888595209cf043fca9e4067021"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00016.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00016.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00016.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00016.png",
+      "image_sha256": "b762d585cf4960a4d9743c06b483b6aea08468c4108aa41e13ce0a9b78eac48f",
+      "mask_sha256": "c9544f286475ec476c875dfd7aee33d9f2a682888595209cf043fca9e4067021"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00036.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00036.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00036.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00036.png",
+      "image_sha256": "0d274a3e7079a68e53dbe4d34136c0482a3495410030754f904eb08454771959",
+      "mask_sha256": "9aa37f42f7bf8ae582db309273621779cac4fbdcecda68de3987cd7422451ed5"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00056.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00056.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00056.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00056.png",
+      "image_sha256": "8fb2888d5c2980407e96d10072f4a116c9c8d9ccd63ab392506e6a15ca18c8a3",
+      "mask_sha256": "fe60ee47ea165110f65121f04ca922f745b96cea39b2894f2931c27b7c82aab6"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00076.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00076.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00076.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00076.png",
+      "image_sha256": "5942333dbcb0fc7cee1ded82f0de567d2beaffeb7571c0c17a20d69ccd8c4919",
+      "mask_sha256": "2f413596a8430c3374fab0ffc87362be4b5828bb1a9f91be1a2a5f6dc2019e5a"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00096.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00096.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00096.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00096.png",
+      "image_sha256": "7b85d079b3788e1bb329fa4a8c2c7de27ac21431b40d5c926824420f18b5f958",
+      "mask_sha256": "a022b8bb51901ad0214411b7c7eaff77b4b151c2a3f657b6f818a619e00440cf"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00116.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00116.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00116.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00116.png",
+      "image_sha256": "4a00be9845d5a397166795932fff2d3babd6a8281b1d56e7b714771c47e9bf56",
+      "mask_sha256": "aa814bcb006a4e17cf3ef8347642c4e4ef9a880fc637af986ad6f5a415e3c46b"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00136.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00136.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00136.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00136.png",
+      "image_sha256": "023ed616049fbcd1df4ec4d17aca9b2eb7b2bea84cfeb75544193b3be3f481ed",
+      "mask_sha256": "00609749b995449bbd2703fa9395da88c2a477abcf88305186f3c03cdb7c7a03"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00151.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00151.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00151.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00151.png",
+      "image_sha256": "dfc8dfc0804d24320708670ed2791efc199e3da85ede7041382bb11199548f50",
+      "mask_sha256": "51ebf1d50bfdd6aab7a444f2b3e2c1ae1b16b48129db147935a945c78e4d3853"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00171.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00171.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00171.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00171.png",
+      "image_sha256": "41cfd0cf5b610bfbff95969fe04b05e3c1023d2cd2667828ff459b1c9460d483",
+      "mask_sha256": "1a6a4e1581901f3c1f561cfcd2e6fca4c1084a2bed11b3478e4d4a0942003c64"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00191.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00191.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00191.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00191.png",
+      "image_sha256": "2762e03dc09b8ab8fca559e0e3b05e09861e2d1da79d8048f0d179b53c9ed5ae",
+      "mask_sha256": "451ea0b61eac119bd2bbdf41f280986f9f42d0d220c08004afad9b96cf47ffd2"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00211.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00211.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00211.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00211.png",
+      "image_sha256": "117659ef3c2acbede021b173a1483249cb58dcfed53b724a85826166a8f8b70e",
+      "mask_sha256": "3815147dafd739721a6de772a1dd6ecb6d811f13d12e30511bc7569dec463205"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00231.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00231.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00231.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00231.png",
+      "image_sha256": "b0f82beedd42a579a38ce7e35a3511d331d180b248d3b83defee091a0a886646",
+      "mask_sha256": "6952a9086c69fa30f9f8f91a037e094b1e751a0457bd5711025f3ee18bec05d8"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00251.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00251.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00251.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00251.png",
+      "image_sha256": "19483ae2472f8d2bb557d0f6cea70f867c9559ce858420b5f00b433fa9a0b2d5",
+      "mask_sha256": "ce6ffa00f9d2640596d0a8b874a896edd0947257708ee1c9c3a20f5d4e04de6c"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00271.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00271.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00271.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00271.png",
+      "image_sha256": "b8f01646f49d96a7450520678e9d18cc36b32d638e9734dae59b4c38c71c8c47",
+      "mask_sha256": "ba94798f6876dd533179c30e912a844278f6a95cb3a4e8ff8c846d88a123feac"
+    },
+    {
+      "sequence": "trail-9",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-9_00291.png",
+      "mask_path": "data/rugd_subset/annotations/trail-9_00291.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-9/trail-9_00291.png",
+      "remote_mask": "RUGD_annotations/trail-9/trail-9_00291.png",
+      "image_sha256": "1898206266b86aa04510e0008374b4d67f6f87736c2cc40aaa18931f268dbd5c",
+      "mask_sha256": "c9d02aa781a76f40b49e20ca4ebb304a15e4b2f9219cdfde487ad186fa63acb4"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00001.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00001.png",
+      "image_sha256": "79372de560fae96c3373d3228d13968a1dd80849501e63a340f972a9bc782279",
+      "mask_sha256": "cd20cc527c4a0531f26cd35f90ed30980d024b06822cccb8580e1a582a8e69b7"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00106.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00106.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00106.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00106.png",
+      "image_sha256": "311dae8d3ec8f7992b9d4a236c0c6d265db66c34f963d9c37dc2d5f68758310c",
+      "mask_sha256": "289a9036d8791a47b79663dead96c2e734ccfcf2ca293a3c1892b21014694cd2"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00216.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00216.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00216.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00216.png",
+      "image_sha256": "96b4e847344ff64b7e46d354f37f0979bdad445f8b905e81f586095f8658528f",
+      "mask_sha256": "02facd4219ced6b2725b99495d962468f11f0d907d697517a8be1e051913c0d4"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00321.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00321.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00321.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00321.png",
+      "image_sha256": "47b32116f3719b768256de8ec62fc58b6f97d7eb63a0a16b486cc6d5fb13c814",
+      "mask_sha256": "a5b453ad3721605a899e7e0f188a67b3c817f78c761c0821779ed96d6e2521a6"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00431.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00431.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00431.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00431.png",
+      "image_sha256": "42872581e2ae3b253cf51b10bd0f90d03526a179cf5ab34c726a3315860594e2",
+      "mask_sha256": "cac6d3e74dcfd94b65624eae15cc902bc0f2fb063cce8c4da075fb36de50c894"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00536.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00536.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00536.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00536.png",
+      "image_sha256": "c8dc9f72a4f186bb27f129da042527201ab95699286fe808b443df62d1bcc50d",
+      "mask_sha256": "12cbc1a6b5ec7377aea6d7bf27f755cf2aabc5bcce2d3cad1821f30fd526208b"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00646.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00646.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00646.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00646.png",
+      "image_sha256": "9c4397571d69c33742c1d543602aa4e4c5aea860a92229cc7a1a632c7257739c",
+      "mask_sha256": "7d783bf52b61452ca54b7786341cab8908ca0e6168aa616b7b65c55bd4313792"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00751.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00751.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00751.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00751.png",
+      "image_sha256": "a762d7e03ebf541c26264ed11c09c6e7bb1797cd8db83d16e58d0029f2176815",
+      "mask_sha256": "ac51845040421578a62fdf89c7e5e703022956a790c0e8bae99eda5f6aa09cd5"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00861.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00861.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00861.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00861.png",
+      "image_sha256": "18829c49dd4dd46af3e988cbdf517dcf1f12ea72c91c7faae659aa15e7e38b57",
+      "mask_sha256": "0908a0be708ac89aaf31f2861c1d2e4c913d6d76d9c2dec76b0684f48def1db7"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_00966.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_00966.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_00966.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_00966.png",
+      "image_sha256": "804cf612be2bbe25749ec2d8c8a2b3b95b5a484cd2199d751f3ca76d7f104dab",
+      "mask_sha256": "ff515da8412780913b70fdb42915212e40dc156ee25fd5b0cb8718a8f7ac869d"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_01076.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_01076.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_01076.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_01076.png",
+      "image_sha256": "029c7571402837f4336d7cadb381e093c7688c5673ebcfdc5f29dfb9cd7bdd97",
+      "mask_sha256": "1dca807a61e0c6506bfc8431e36c58bcbc2dcd76982101f41264e4d0dc0b93dc"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_01181.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_01181.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_01181.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_01181.png",
+      "image_sha256": "79b625139d8ec323c07d78168842fc2c7009c0b49fe91f835a140228b68c3d73",
+      "mask_sha256": "c6261d59181088df6fa736c9e99a02ad0e5bd0c28b30841421c043bdce14dacd"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_01291.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_01291.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_01291.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_01291.png",
+      "image_sha256": "983c41f29b89e3f61ba5b27e24495509746158ee75d0cac1c1a68f363cc9aa17",
+      "mask_sha256": "a8fdcc619e5a7af1aaa470f767a34fec93e05154ba6ae109d5aaeba74c2ef384"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_01396.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_01396.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_01396.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_01396.png",
+      "image_sha256": "e11323bf55dd0d9c40e99e06e481ab3b6b47301ff28cb70167cb319eab022fb9",
+      "mask_sha256": "4f8285d974d6febd0471771170db4f53a35f06968146d776a641ec4681c6a11c"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_01506.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_01506.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_01506.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_01506.png",
+      "image_sha256": "d0184389352fafcec2722b5626e66e18b0d53c5a38469e4b82f62a747a969c12",
+      "mask_sha256": "fe1160b296d8f28457e026ac31d08799b76ee0ff239c4f0f777c1e2fa11953b0"
+    },
+    {
+      "sequence": "trail-15",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/trail-15_01616.png",
+      "mask_path": "data/rugd_subset/annotations/trail-15_01616.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-15/trail-15_01616.png",
+      "remote_mask": "RUGD_annotations/trail-15/trail-15_01616.png",
+      "image_sha256": "e0f01001441f406e02d42dc1a44527ac27224aa717dbcda6f1291470ce4d9b8a",
+      "mask_sha256": "3acc2386dd27a1c6815cf629dae6e68318ba9aaca9230b29647cdc962461b838"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00003.png",
+      "mask_path": "data/rugd_subset/annotations/village_00003.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00003.png",
+      "remote_mask": "RUGD_annotations/village/village_00003.png",
+      "image_sha256": "f75cb5e174ec5b80eeaff7fd6a6b8f3c6bc5a3d4071de523f6eb86257f9a392e",
+      "mask_sha256": "fe99a000d1d36493e552a0dc2521533f01821b73a9c5036255c9da0c621b6315"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00038.png",
+      "mask_path": "data/rugd_subset/annotations/village_00038.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00038.png",
+      "remote_mask": "RUGD_annotations/village/village_00038.png",
+      "image_sha256": "9aadeb91bc8f1eb27e82e59fd73a146943a477482c6bb82fe87c4ad1c9114ac6",
+      "mask_sha256": "ac8e128851fa1bf24d7da6c4ab90cdf503df8a47a8156181686bbc6f5dcde527"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00078.png",
+      "mask_path": "data/rugd_subset/annotations/village_00078.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00078.png",
+      "remote_mask": "RUGD_annotations/village/village_00078.png",
+      "image_sha256": "36311a415a6a6221d8ed21dd21ceddd4a771a4428990c0fb81f22ce7cd4203ad",
+      "mask_sha256": "f41de2707877d9477b3bcb5f992d49b36396355da02ddb20f51c2d91f4002c06"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00118.png",
+      "mask_path": "data/rugd_subset/annotations/village_00118.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00118.png",
+      "remote_mask": "RUGD_annotations/village/village_00118.png",
+      "image_sha256": "e621429fc47e2aa3b1a23b2e4a9889a99db86342d25d0962af9a607acc383a71",
+      "mask_sha256": "18a2d003c4c00d15ae65de8828fdfc5319a50ebc8c2b86581876ede0059f0960"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00153.png",
+      "mask_path": "data/rugd_subset/annotations/village_00153.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00153.png",
+      "remote_mask": "RUGD_annotations/village/village_00153.png",
+      "image_sha256": "df3b4587015ecfdaa9c936f3aeca6f89c4eab25be3227f52022e741e12ac3f1d",
+      "mask_sha256": "d4eb715ac6ba00e9c9c081b8358134765b39675a6e54deb663bfb8e37ce7d1c8"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00193.png",
+      "mask_path": "data/rugd_subset/annotations/village_00193.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00193.png",
+      "remote_mask": "RUGD_annotations/village/village_00193.png",
+      "image_sha256": "daa48aa6e9f46bb016c4fdcd5c816c6602ebbc7c0b7fd96f5e2f9cc82d04716e",
+      "mask_sha256": "180496ecf043b24d11d59234795caa97f12c419fe6a84a089bf0d8100017f16c"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00233.png",
+      "mask_path": "data/rugd_subset/annotations/village_00233.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00233.png",
+      "remote_mask": "RUGD_annotations/village/village_00233.png",
+      "image_sha256": "29e5b04ca1657df8b5c883a68dac9a0805b6548524a85b0bd6ac68a480d221e0",
+      "mask_sha256": "b13c7649600343f169cb8c9ffa7b5c399fc5089f7250e79b4cfd379f43ff98e9"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00273.png",
+      "mask_path": "data/rugd_subset/annotations/village_00273.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00273.png",
+      "remote_mask": "RUGD_annotations/village/village_00273.png",
+      "image_sha256": "87c89eaa73752a555e48e9d441d4f42049eee1a4ea20f4b244d38768d89787d7",
+      "mask_sha256": "552aa0039a20590d2315c460e047108ca0477690005c4140e3ee823f45ced7b7"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00308.png",
+      "mask_path": "data/rugd_subset/annotations/village_00308.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00308.png",
+      "remote_mask": "RUGD_annotations/village/village_00308.png",
+      "image_sha256": "c17f1597a702c00f07ea6e0eb3878aa3fd4693c736f264f9843d71f5a2143837",
+      "mask_sha256": "0d4a0dc05728be8526979f24fddee603a9a37ce2a9f8cb7d08a25cda35250b9a"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00348.png",
+      "mask_path": "data/rugd_subset/annotations/village_00348.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00348.png",
+      "remote_mask": "RUGD_annotations/village/village_00348.png",
+      "image_sha256": "44b157ab243b193696b518a486a5de40202f0835af8a49d20ee9db146239b9ee",
+      "mask_sha256": "0869604405c7ec21accd191ae508b2b7fed2d42d06ea71a5e4481b664381eb5c"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00388.png",
+      "mask_path": "data/rugd_subset/annotations/village_00388.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00388.png",
+      "remote_mask": "RUGD_annotations/village/village_00388.png",
+      "image_sha256": "5577f6c3dfe96281df1ebb938192c370714b2172ad72be3425d51a7c9355e9d0",
+      "mask_sha256": "2ac17b7a42615d7bc07901c451a02d33f14bfe1cdd6389cdc297cb71449b53ef"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00428.png",
+      "mask_path": "data/rugd_subset/annotations/village_00428.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00428.png",
+      "remote_mask": "RUGD_annotations/village/village_00428.png",
+      "image_sha256": "d8200f662b297bee02557fb291b9101d52c2ed06a15021903855da790985c8f1",
+      "mask_sha256": "ae5b60d2268039928a5f1f2dc3cadc14eda0421b34245bb1b0c8b70b7bb0bd67"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00463.png",
+      "mask_path": "data/rugd_subset/annotations/village_00463.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00463.png",
+      "remote_mask": "RUGD_annotations/village/village_00463.png",
+      "image_sha256": "2d55daeee528b276cfc089933d9677e6099d59d292627e8bbc26151f69559219",
+      "mask_sha256": "e3255bd6f4cc14cf250e865bafe53a78c9f1312a1ae2c0d81ec51c722f516a7f"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00503.png",
+      "mask_path": "data/rugd_subset/annotations/village_00503.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00503.png",
+      "remote_mask": "RUGD_annotations/village/village_00503.png",
+      "image_sha256": "eb4776c228ba0ec0c4d4949f0d9b4fecf64084e615935cd0268145955711d6d5",
+      "mask_sha256": "300fe8b47ed4cea20d26c229ee3e98925994963c511fc4c2fc7fca00e1dfc21f"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00543.png",
+      "mask_path": "data/rugd_subset/annotations/village_00543.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00543.png",
+      "remote_mask": "RUGD_annotations/village/village_00543.png",
+      "image_sha256": "f96915ad00ef23a3d7c388a2cef35afb641dcd5dcc001c95a034619639c9664b",
+      "mask_sha256": "d912234b55d9fcc64129adc949f67f310801bc3b15b738fb2ee52812d91ad57c"
+    },
+    {
+      "sequence": "village",
+      "split": "train",
+      "image_path": "data/rugd_subset/images/village_00583.png",
+      "mask_path": "data/rugd_subset/annotations/village_00583.png",
+      "remote_image": "RUGD_frames-with-annotations/village/village_00583.png",
+      "remote_mask": "RUGD_annotations/village/village_00583.png",
+      "image_sha256": "45dda58858bfd7b8255c8555efc24ef1238a03dc96e649add06566fc9ba6463b",
+      "mask_sha256": "76ad686e60951d72bad327e8474627f75fc623269b77e9597c1c6349f9d4d31d"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_00001.png",
+      "mask_path": "data/rugd_subset/annotations/creek_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_00001.png",
+      "remote_mask": "RUGD_annotations/creek/creek_00001.png",
+      "image_sha256": "1abdf6688630f090e05654db8700764899ec12aa0425a00606d490e4ed3e37e8",
+      "mask_sha256": "0d0b78053f45cd65691ac68a72f364af32c294a5ded5131ba2a82d96e19d1dce"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_00376.png",
+      "mask_path": "data/rugd_subset/annotations/creek_00376.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_00376.png",
+      "remote_mask": "RUGD_annotations/creek/creek_00376.png",
+      "image_sha256": "5d49b90f2e05274f607a7981e48324d533fa75122f849632e2e0b38121c797f8",
+      "mask_sha256": "01a4e78338cda1cc2d5fe549f5e2774310a605dc0cc13e86a2a35cc0de6a8611"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_00756.png",
+      "mask_path": "data/rugd_subset/annotations/creek_00756.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_00756.png",
+      "remote_mask": "RUGD_annotations/creek/creek_00756.png",
+      "image_sha256": "74f988fcdbe1ef34318eb299196716deb2e79ec55845994c9edbc86a1f762fd4",
+      "mask_sha256": "d03b33ab826551e374b890980e47303d833ba2e7417ac176b74193dc52d0cb07"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_01136.png",
+      "mask_path": "data/rugd_subset/annotations/creek_01136.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_01136.png",
+      "remote_mask": "RUGD_annotations/creek/creek_01136.png",
+      "image_sha256": "7d1841aff59d15e2401a2f85b289879944a3f52f74c0742d3338a65f8d15dd6c",
+      "mask_sha256": "d6c1ea29fe6fa364f730aa9bfd61d20bf160d06b73f926b2c6d030b45132e840"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_01516.png",
+      "mask_path": "data/rugd_subset/annotations/creek_01516.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_01516.png",
+      "remote_mask": "RUGD_annotations/creek/creek_01516.png",
+      "image_sha256": "fc6c2dae351ec513e96663adc78e858c14d1a08d0e9d2fe497f134543ae4454c",
+      "mask_sha256": "0d2dca352ed9a45f03d4f04598b0883ac2ba44e7d1ef8450d76ff446ed7d1dc3"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_01896.png",
+      "mask_path": "data/rugd_subset/annotations/creek_01896.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_01896.png",
+      "remote_mask": "RUGD_annotations/creek/creek_01896.png",
+      "image_sha256": "70aefcf7b96d9df1ed2a65b2bce6884e0f3adaef8f84266a01e27a0ec3fb9090",
+      "mask_sha256": "a7643298086da37f58f29b1030c2aec4539de92e28f3bc73dda39e6cce6f3666"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_02276.png",
+      "mask_path": "data/rugd_subset/annotations/creek_02276.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_02276.png",
+      "remote_mask": "RUGD_annotations/creek/creek_02276.png",
+      "image_sha256": "55feb46e580d1d39dce1d992fa839aadf95b0609dd974ed10b9055a310c0cd65",
+      "mask_sha256": "2fab31c16cc94f71949dfc54f78f0b09067fcc55688a678fbf800bce9a141d77"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_02656.png",
+      "mask_path": "data/rugd_subset/annotations/creek_02656.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_02656.png",
+      "remote_mask": "RUGD_annotations/creek/creek_02656.png",
+      "image_sha256": "878e48affb6c360bdfdae5ae602ca8ba3e8fc90fa1fc013589fea1efa946d477",
+      "mask_sha256": "fd52c740fe2ef6cb404edd35d7f07279bbcceeb7d06c60c5a3a6988cdee77e67"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_03036.png",
+      "mask_path": "data/rugd_subset/annotations/creek_03036.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_03036.png",
+      "remote_mask": "RUGD_annotations/creek/creek_03036.png",
+      "image_sha256": "4b5484c4342a8d469eed4c3ebe5aad73f60b3da126630401e14b34cf21e41423",
+      "mask_sha256": "c6a045a99c62e569b9d6a025cb69f93b89b2f4e4f4ca38e9cb818e1d192f4dc2"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_03416.png",
+      "mask_path": "data/rugd_subset/annotations/creek_03416.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_03416.png",
+      "remote_mask": "RUGD_annotations/creek/creek_03416.png",
+      "image_sha256": "34c2d44c0efd94c9396ab51839dc8ed9eba61b855afe8b689e5a54e9b0235e84",
+      "mask_sha256": "bb01ff37bb740401f7b9f51e2a58d0e6303b5c0f02265bb831fe143b450335cc"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_03796.png",
+      "mask_path": "data/rugd_subset/annotations/creek_03796.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_03796.png",
+      "remote_mask": "RUGD_annotations/creek/creek_03796.png",
+      "image_sha256": "ec1d0741a28496d88867d02c08d201dbc6235126438dc6f19c7efc2643cd50e9",
+      "mask_sha256": "0bdc124b8c9db672c4989351ccb0f3ebd464bde2a2646d5cf3fe0e0552b4f027"
+    },
+    {
+      "sequence": "creek",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/creek_04176.png",
+      "mask_path": "data/rugd_subset/annotations/creek_04176.png",
+      "remote_image": "RUGD_frames-with-annotations/creek/creek_04176.png",
+      "remote_mask": "RUGD_annotations/creek/creek_04176.png",
+      "image_sha256": "700c084cbcd8a00faf8aa3988888fc2a33d1b8896a65ba5c49ed4e3154137a3d",
+      "mask_sha256": "7975f140f13c155049e7a14a53ebdab8b10c2beb3ff6175bf423d2d282d7c021"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_00001.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_00001.png",
+      "image_sha256": "48f70370cff5a02eadf9f18abb800f60a1a476365edffff13402e1b9d415c787",
+      "mask_sha256": "7ea46222175cdbd5161dee99ca428c3f253979638488d31f021caa39e45cf117"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_00261.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_00261.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_00261.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_00261.png",
+      "image_sha256": "b07892e90f740bd71fcd53f9e535e3ef6b1c99df082071f29a3dde50beab1f28",
+      "mask_sha256": "a876c7cac4d7ea165f898cdf74771587c56da67e0a0b0d2d6d2e0ace45554205"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_00526.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_00526.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_00526.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_00526.png",
+      "image_sha256": "3a23cf1ddffc5b4c3f06550d133280b20211215d4c4183d8718afd980eee1cd3",
+      "mask_sha256": "61f6936cd5e6ddda7a76ceb1f1b864a3bfa706d60eea39a879d2cfccada4e9f2"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_00786.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_00786.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_00786.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_00786.png",
+      "image_sha256": "c6197ff84da844a16afc0150149189cbd3d49e595e40e1f21b3e6fcdbcb85a40",
+      "mask_sha256": "b23a0353bfe2889d6db4ce256652be5902de7802b98c035b6fca4b6c1015703b"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_01051.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_01051.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_01051.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_01051.png",
+      "image_sha256": "90c5931777e9a0b3c7e8531b869411238bdf5bbc4c04866a9053b3556787e523",
+      "mask_sha256": "fef8ac209b8cb8e1b5cf88629cb46e91b8c977dfcf212b4b2cf1476ba14656ad"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_01316.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_01316.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_01316.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_01316.png",
+      "image_sha256": "95067e9ae7680a18b0b5ea4fbccfc12f321adc7415a1dd624c7d9ea3fad2d8d0",
+      "mask_sha256": "3e5930acbe6a054b36847df7a6fb7516e8ec7718e775fad27cfa3cd5644d8cd4"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_01576.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_01576.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_01576.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_01576.png",
+      "image_sha256": "9115c8df8abe47b191f76cc47e9009c6b5c731374c38f9b52a3fe55aa0ba6b96",
+      "mask_sha256": "888433a18d3a20ae6d392539b1cb21ef73af458b68f9128aba55fb95aaddae91"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_01841.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_01841.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_01841.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_01841.png",
+      "image_sha256": "5dfc8d1ff1203c4d88faef6933ee8452457a8b48386a82d49fb9158567d4df14",
+      "mask_sha256": "3c4b53162ec2c587feb21f6a8195ea54af73ab895fd60d2b3f2a88c650cd3cb9"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_02106.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_02106.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_02106.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_02106.png",
+      "image_sha256": "2f3ff249e3c2baf7c9c94dbc83fa2194e63f7fda102ccd67a8fa59d2089f8c3e",
+      "mask_sha256": "b06f7b55661d87d05bef2e439789e2d6ffe76bca87b7fd62aaaf3462a1b3c457"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_02366.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_02366.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_02366.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_02366.png",
+      "image_sha256": "e772c1136a1225cecbbc5a3f436755244d0dc1eacf2899597e7c1d49fa845454",
+      "mask_sha256": "1eb3ee269cf3eb3c63b157f11642a47436924eae926594f122824b830f737325"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_02631.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_02631.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_02631.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_02631.png",
+      "image_sha256": "6df77c2072858f247c2b93a662e24ae37366dfef34c82a7ec524ba4d5cdb1d0b",
+      "mask_sha256": "f8e9173b1619a4a2cfb5ed5b899a4cccf9b1e125255440bbad7a6fb95f87e876"
+    },
+    {
+      "sequence": "trail-3",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-3_02896.png",
+      "mask_path": "data/rugd_subset/annotations/trail-3_02896.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-3/trail-3_02896.png",
+      "remote_mask": "RUGD_annotations/trail-3/trail-3_02896.png",
+      "image_sha256": "acc3041d2594438490407c53363bacb6329879f803e870d66909b33b01d5f828",
+      "mask_sha256": "eac5a65d22dbe40d614bf018d2f5b66b7891bf1c1e2a84e12586d130044c7aa5"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00001.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00001.png",
+      "image_sha256": "60c96572fb61275e85291b684286b2f33762ff6ed54058a3caaa1444f1229d38",
+      "mask_sha256": "137b50dd63ae9a73c343cd6329913d3acb5da156d818ae80adc0cfc34b2840f4"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00021.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00021.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00021.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00021.png",
+      "image_sha256": "1d44e11615e6ba721bae1533102fd2c611b2381c46a94c38492d2a90b8a0abca",
+      "mask_sha256": "b75f40a2e1eba53c45f8fb1d89fe81a070ad3b428e53050f912dd4bead52093e"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00041.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00041.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00041.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00041.png",
+      "image_sha256": "72b72b6003b2e43e2c5b25378e19913b8900f7e814a8e6601721344b0b35cf0b",
+      "mask_sha256": "2786b7e295b0b6cba58376097289bd7398556509642259f644f86f009eab0480"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00066.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00066.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00066.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00066.png",
+      "image_sha256": "ae3ca3f4fc66297c10fac18ca4ce6791ae0cb16f7185a3d698e960d3e99ce873",
+      "mask_sha256": "c8112f1e4b1df2a1e39b07b41860d3b8f3d098f67bccb8fae044788c17017343"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00086.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00086.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00086.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00086.png",
+      "image_sha256": "b7ebf1775d22a87f105f400e503d0c3d723bfe450f0635067d72f14b168546d6",
+      "mask_sha256": "674e34fbe141beca8b2784e8112495ab822b225c6eea83712422357ae2bed904"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00106.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00106.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00106.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00106.png",
+      "image_sha256": "6b3477ca88a7c5ba184d5ded53a0fa19a1f17165ef54e3889e8065b3e0e7b071",
+      "mask_sha256": "5531519a366c4f617edd855925b2a76a86abba4c26a8bbb1bb01f1a6a9921006"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00131.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00131.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00131.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00131.png",
+      "image_sha256": "d529eb1f69ab3afcab54f7fa752e8f82ab53690fa719a349cf73602439006542",
+      "mask_sha256": "a70c16842ff8c61242864ac6273e7a6c154de00c701f387012a79fc0bde21616"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00151.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00151.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00151.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00151.png",
+      "image_sha256": "2ece3ad1db0237293c5993667013ab712a04605eb20549224659fabfc59bda07",
+      "mask_sha256": "133c3e78efe0339534510e50be8b66872c3337fe5886a2a566bb0aea4f9a1fb5"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00171.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00171.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00171.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00171.png",
+      "image_sha256": "035d4975d70668a970a994800d30742d183e69428b634d6d9aa1b4c52b90bf4e",
+      "mask_sha256": "4db253e313abb83b0626637787c3d1448feaf8c0a6df40ff42739807cbb747b1"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00196.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00196.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00196.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00196.png",
+      "image_sha256": "2ce2e129d9ff8bd93ad6aad6cb07bdcc02ad1f84c93b32b11bf93ddf0ceee8b0",
+      "mask_sha256": "0879c3b64e0bffc6e398c0aa005ccf84c56df82a7f0d6ebf69355bc8c038d0cb"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00216.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00216.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00216.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00216.png",
+      "image_sha256": "3130a2e0be6fee9e70b936ac59e6503dbed73d8a98efc09e6bd9ee42a8dcb382",
+      "mask_sha256": "905090c6c82e117ac55a8d2e5b59eef94d61861306045c816af0a5b1b60b7dd4"
+    },
+    {
+      "sequence": "trail-10",
+      "split": "validation",
+      "image_path": "data/rugd_subset/images/trail-10_00241.png",
+      "mask_path": "data/rugd_subset/annotations/trail-10_00241.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-10/trail-10_00241.png",
+      "remote_mask": "RUGD_annotations/trail-10/trail-10_00241.png",
+      "image_sha256": "67cf8390c314e758987b0a8f3298e49fcb907c6c42696b0c4eeb0cc3593b0f9c",
+      "mask_sha256": "5bb2c32bdfd085e394ccea1e086618ed750fc7a202e66202b0180c9f4852d1ca"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_00001.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_00001.png",
+      "image_sha256": "0f5f3be15d6f0568b38e6b350a315ebb70586864f7751db52b26e194f4050d26",
+      "mask_sha256": "110c2365a4bb5c56ba255a0e2503809cc592ff3af4fde5a0dd179ea31f333235"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_00196.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_00196.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_00196.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_00196.png",
+      "image_sha256": "73ab28021cd4ba02b7c670af94c0737f231ae99b73591582803ac58eddf950e6",
+      "mask_sha256": "8b87719962af6fe8b5f317f67b7344b15caf2907429e9ab50200592e104de6c8"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_00396.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_00396.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_00396.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_00396.png",
+      "image_sha256": "a3666b7315aa0d094a9085c97cd8c5875d51e22ac5a67d55fb97a1c61ae891bb",
+      "mask_sha256": "da40d66ed3d0f52a5b4b71192c9e9584c127c49e711e62d9961ca44305e1051f"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_00596.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_00596.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_00596.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_00596.png",
+      "image_sha256": "d237ef1a87545d2b58775902bc5b1d25e67ca0fdcd4f9af301dfec5c4d2c81a0",
+      "mask_sha256": "8eba0a73e25ad8b5547544c004595895d2037e3f3f814d0a2760257c0ea08636"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_00791.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_00791.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_00791.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_00791.png",
+      "image_sha256": "76c06c1b0ad148500ac1813bd428c1e803597680608afa3f5839b5e48a4a31a8",
+      "mask_sha256": "6514a40cba40b11e56ea0e14c374a29f9164410cc34084f64bea025c1c6e40c1"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_00991.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_00991.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_00991.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_00991.png",
+      "image_sha256": "c511f454ae7fa18266378fc8ba1ecccfd3f94bbd16ef219e9c34939de6b3ae96",
+      "mask_sha256": "8396251cedb07f7cca3fbc55254a67ba6461c85daa3a78d9174e24a2d7f085ec"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_01191.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_01191.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_01191.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_01191.png",
+      "image_sha256": "9c7680fb6fee2e74a1dace312afd38151d66718f3d82f917ac92e8246b21eb45",
+      "mask_sha256": "bc2219a1df731a5424ba2461b0acdd03b0978cc4e78ffa98a5db80533f5f0227"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_01391.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_01391.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_01391.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_01391.png",
+      "image_sha256": "2cc591c4b7585f11091633770a6be85143ae0c8448e8edd5f25ae1374bd09642",
+      "mask_sha256": "83f412adeb15a3a196c47d99430d7cdd1389579916f4a3d77e5c86f7b1915f8d"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_01586.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_01586.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_01586.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_01586.png",
+      "image_sha256": "3e8e95401183b5efe610f6c39d18d274e20222947e805f51e9b840a8ca5fd108",
+      "mask_sha256": "d1c2c3b34d9d54b356ef89de292e14b8f7bf200d276dc445b36161d291cb7380"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_01786.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_01786.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_01786.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_01786.png",
+      "image_sha256": "225149ebf0bf0d16201fd0745119fb9981c702ef63f52f81620df6e96733635f",
+      "mask_sha256": "507e9833aa8c17ecd378d5a274e423db5d877530a3dc702ca08ec91a3ffefe1b"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_01986.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_01986.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_01986.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_01986.png",
+      "image_sha256": "653dfdc48bce278a32632d66c22a8f216740a3e323497edca5b641ab092b61cc",
+      "mask_sha256": "df14dc71cb8581ed9b3532159d615c4710d98252ab009a380934b214fb2836eb"
+    },
+    {
+      "sequence": "trail-11",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-11_02186.png",
+      "mask_path": "data/rugd_subset/annotations/trail-11_02186.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-11/trail-11_02186.png",
+      "remote_mask": "RUGD_annotations/trail-11/trail-11_02186.png",
+      "image_sha256": "f8378e6035d82c90c9ce5e8a4a37888625d738d10016104612923e52070775ee",
+      "mask_sha256": "ac42e0116f0585d47a99234938846075e9c2abb376ff044375d1d46b62bc7d89"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00001.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00001.png",
+      "image_sha256": "554d2736ea728994eac50c628700124f7243576b153f21eef18331511c51f656",
+      "mask_sha256": "77a2e7e7ff4124e1e598010753c67cdee7fc50ca034ce0a379aecac0ab7cb5b1"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00156.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00156.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00156.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00156.png",
+      "image_sha256": "0c4867238a793db786db7aa7a7df4f1c519296e4995bb92837d5afd16dfb371d",
+      "mask_sha256": "b368a1733d47e800e3bbb80aa4cba9cb2d1d5df77ec3dd804a484efdd31f04f0"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00316.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00316.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00316.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00316.png",
+      "image_sha256": "4255b05337b59ac8c27ac1189049badb7e053cda72d14a3652d9fd0427971fa0",
+      "mask_sha256": "61af69663d2e7c9f0d5254f31e973e0355a24a6691003951c2aac96bc166d5e7"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00476.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00476.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00476.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00476.png",
+      "image_sha256": "e3f405b75facc1fe8f136cfd5f2e70060c86d254317db99bbdcf9cbc69b2a750",
+      "mask_sha256": "e543fd6fdcab856ed631fa03bce9e2113dc0c0a34661e80cd814a5774293ae65"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00636.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00636.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00636.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00636.png",
+      "image_sha256": "36bb1dde7d2338d416ae4bde82cc668ff735c9fca8e15ece743a52600f6a08f5",
+      "mask_sha256": "ac254f013bd6a93e599e4b107720aedc9621866e22b6cd9ff2b9c41da0b7a7ad"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00796.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00796.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00796.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00796.png",
+      "image_sha256": "37adc2b62b2a0afe3fd4d81b4a00e30f9c7447c0222470f15740393735e42a31",
+      "mask_sha256": "daba137c959e2476fbb89ce681629a96fd0181c4676c266f8a0fa34bcf912733"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_00956.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_00956.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_00956.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_00956.png",
+      "image_sha256": "1383b8def1330797fdb0bd5d5d41ef561a0d1d271d32b04dfdf038f2c51e88a1",
+      "mask_sha256": "1fd73ebcc0f770d35eba2d5000f23278dd7a96e95330e87d9586b860043f33bf"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_01116.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_01116.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_01116.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_01116.png",
+      "image_sha256": "752110b49011a33cc5cdc7d6024c52ad615dd08e5a099e72a2f783fe33c629b3",
+      "mask_sha256": "7cb1baa3fa2201e3d18c8f87ae217e126cf0c5351237f4d9de08594bf956389b"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_01276.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_01276.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_01276.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_01276.png",
+      "image_sha256": "5745a1fe4d4b4119616e4b84d564b477f646bbd21b20d613637ba162160046a1",
+      "mask_sha256": "dc462790b282731188f37d13182eb1e18e892eb4902ab9c36c63a964433890dc"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_01436.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_01436.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_01436.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_01436.png",
+      "image_sha256": "604667d59c0819f86487658278a9de52a6767bea01cd7ef97611c8dca85ca74b",
+      "mask_sha256": "8d47114174d1a1ddb72ef3f7ef44b54fe5f42cf2a89583ecf0951f851dd99091"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_01596.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_01596.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_01596.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_01596.png",
+      "image_sha256": "74d68c54dc533e1d483a908cb511c5dfe9bc43abef030f24ea48d2ed4d796c00",
+      "mask_sha256": "5bc3fcf6214e65731984de7b5718c244ddc45e9c4767b8b0b18b68353eaf69fb"
+    },
+    {
+      "sequence": "trail-12",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-12_01756.png",
+      "mask_path": "data/rugd_subset/annotations/trail-12_01756.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-12/trail-12_01756.png",
+      "remote_mask": "RUGD_annotations/trail-12/trail-12_01756.png",
+      "image_sha256": "04abd24adb74310e1f6d44f03dd7bfb9299e2e0e4ec83bd949742df0b3cba0ca",
+      "mask_sha256": "f5fe4395ee3299ef39345efbc85b20de8a26c230438553074741393a24c6bc46"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00001.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00001.png",
+      "image_sha256": "84934cb1d9d990d0a869450fc0dca9d43fce0d80756cbdf86523c0acb4e2d418",
+      "mask_sha256": "7b2efa9c540b22866db7a7e8266835348697de65776a84b0140f7e613bbb8304"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00076.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00076.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00076.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00076.png",
+      "image_sha256": "bd7df0e6237a760fd01164ee8a7c38b0d29a9940fa0b1e7386f6671a1ed86646",
+      "mask_sha256": "68a9f75786413473f55083220a13a5777db6829118733df1d903bb88b2b3a0f4"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00156.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00156.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00156.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00156.png",
+      "image_sha256": "a671b3421a98d5c8df0bc9ae5a09b29b193d20c0d90a5109d875c2b5706fef77",
+      "mask_sha256": "4c5c8f7ee634c9ee7709175152c44ea9803c43448189da14a79cae09961cbaa7"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00231.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00231.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00231.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00231.png",
+      "image_sha256": "75bf19d5fcd013fa0ef6a8336427d5c690fb87953c29b4bd61deb52a5d8a4862",
+      "mask_sha256": "458373fb64f043e7c0aca4abd6fbf27691b37bd926542b52ca32252f4b9c9441"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00311.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00311.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00311.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00311.png",
+      "image_sha256": "900bd342da0419502baae5ccc031adda68ad4c7cb41caeb8155478f66ea23de8",
+      "mask_sha256": "bd557cc6de762b458686129e8060616b4c28c093a239bfeedcce03c602f17094"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00386.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00386.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00386.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00386.png",
+      "image_sha256": "7b94b92e37fcc9c5cb61eb4fc6180962d2acca3fbf31a76e57ab2f874b707d12",
+      "mask_sha256": "9b57d7e4d52e4400c996264b7ce7546742a0f8e957361307ca17c5b1c9761275"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00466.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00466.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00466.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00466.png",
+      "image_sha256": "8d150719e6a74d61e4ab8e8bb2090540f1c1b50ff2225a6585ae3f2ceb40a8c7",
+      "mask_sha256": "67d05da6e7b4abd93879a75152edff78f59058fe913941cc909d07c4cdcfb625"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00541.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00541.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00541.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00541.png",
+      "image_sha256": "d2aff2abada1fdd38eaacd29f94862c036322ec67acc4e0959c08d2a5e1a82e5",
+      "mask_sha256": "d68203f2c1cb140bff16b012594be6fc4e81d4591a8723f2cd045a7aaa747a65"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00621.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00621.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00621.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00621.png",
+      "image_sha256": "d9e636b9132b475f643c845b0f89374fa0e643875232038d38ea83f9e1b658e3",
+      "mask_sha256": "ffe29a86afad45ab94fa8fa9f865d4adfbde510000f4ef39b04fb2d8543e7eb5"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00696.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00696.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00696.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00696.png",
+      "image_sha256": "ab4fdea8929200ed6f5230aa769a1d195e141d7e0717f1a6a3b1b5a5ae13ac64",
+      "mask_sha256": "20334ee9b2f9ab648252e864452bc2e9ac02db41a7adf1ff3467fda2f98cb922"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00776.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00776.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00776.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00776.png",
+      "image_sha256": "ead848990e282f9d1f4b9ccda911dc91bebefd9a12fde5c02ed77ded69b6b0e3",
+      "mask_sha256": "a2e8ccf81f48e7932e848d46bebc5054546a744151e8c7d3072befdc138b7f21"
+    },
+    {
+      "sequence": "trail-13",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-13_00856.png",
+      "mask_path": "data/rugd_subset/annotations/trail-13_00856.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-13/trail-13_00856.png",
+      "remote_mask": "RUGD_annotations/trail-13/trail-13_00856.png",
+      "image_sha256": "85f7a06497aa3b8c42b8d516d710e7ee296ddb24c02e4ff90803abdef673a87e",
+      "mask_sha256": "68b18f5a6f3203107e50b31b3299531e3c4e2ae7674394f70e6dd8d165450eaa"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00001.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00001.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00001.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00001.png",
+      "image_sha256": "52b39c40d270da1f7c98abb09766a0b5d6fc614dc2eb02316a901061fba093da",
+      "mask_sha256": "d480c760f734791e30bc25e1d3a45a82a99a58c660a61cfad1a051b50dc227ad"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00141.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00141.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00141.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00141.png",
+      "image_sha256": "9718fd6c26305b1047614c33b5d732096208a42eea4a6002eafd15205081c32e",
+      "mask_sha256": "e7816343c0214d89556af402e0596c59f623988f128cae5a5ce366024c6f278d"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00281.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00281.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00281.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00281.png",
+      "image_sha256": "c885bbb882387118eb54d656749e0733c4e918e414e91f3568589b630eb4ccac",
+      "mask_sha256": "1f4d13d452a854255a37d64668750e27cc5e1b860b3268f1a77af5bf44d6a87c"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00426.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00426.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00426.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00426.png",
+      "image_sha256": "aa15d007cd0537180cc86888c95b7f5d137a27593035e93be9cb81b194e071a5",
+      "mask_sha256": "d7bdd420f1a29a86cf70104448f30ddf0fb2474c4dbef1ef92ae00c38975f967"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00566.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00566.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00566.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00566.png",
+      "image_sha256": "15a4e939c938a10957bcfeb3992148b6d569c6b42b02c74d79d3ebbae2bc4f53",
+      "mask_sha256": "536327b8b9fc97ea1a1b615b28bda8abc1b2d151a576e47fa0b6582c84019456"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00711.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00711.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00711.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00711.png",
+      "image_sha256": "81e236019e2d0a4ee5cc3b11c95113a89e7ce6928bbf4a4c11c12478897125f4",
+      "mask_sha256": "8f4764cc848d7fd1665012d533a235cbaa4be76d6a44c7effff2147a0000fc7e"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00851.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00851.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00851.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00851.png",
+      "image_sha256": "cf6f91569ac5fa7138703b888f64faf70617c6e0698437c682873d62212d28fb",
+      "mask_sha256": "3e38d8279069c47f1dbb0e5dbb1a24e5f7c30184504db043525f19478a2ba6c0"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_00996.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_00996.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_00996.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_00996.png",
+      "image_sha256": "4dddd28cfc0ddfef8b231341df9e0ace9817766aac7130d42ce9dce99751bfc2",
+      "mask_sha256": "bd4d0bfc37609438aa63dfb39d8d23346c9ce0821b4431c9e3d599a37c7114c6"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_01136.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_01136.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_01136.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_01136.png",
+      "image_sha256": "a63d4fd16f9926f0f146251af0c8ca7019553485331da5c52bb05092e43df882",
+      "mask_sha256": "4d9cd0fce6800b88b78601634b82d4d67aeac990238807513b646804138fed0c"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_01281.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_01281.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_01281.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_01281.png",
+      "image_sha256": "464331793dce2628ee1012a3b828a4d9ade729a77d09195df9fc3c2009d59d88",
+      "mask_sha256": "2c6187ab840421bf1ff9196bfb44b224887c8416515dc8f9a2da36a159ca7d82"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_01421.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_01421.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_01421.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_01421.png",
+      "image_sha256": "f973f5e98f53f4542443ce9dc72d68e44798fe58877845ca6d68635f352b2b5f",
+      "mask_sha256": "1bc2c28281d6cadc839e9bfe25a181be9ea66fb6f14fd06cdad51bbe9ad6a3da"
+    },
+    {
+      "sequence": "trail-14",
+      "split": "test",
+      "image_path": "data/rugd_subset/images/trail-14_01566.png",
+      "mask_path": "data/rugd_subset/annotations/trail-14_01566.png",
+      "remote_image": "RUGD_frames-with-annotations/trail-14/trail-14_01566.png",
+      "remote_mask": "RUGD_annotations/trail-14/trail-14_01566.png",
+      "image_sha256": "c34379cc569916580b0a7ce29ad4e2bdc362df5ebbb6b1ce4ff8cb9736963216",
+      "mask_sha256": "5131042075af84f9d35a8727738b91e5bbe0e5274bcd63bbadd678660a18fde8"
+    }
+  ]
+}

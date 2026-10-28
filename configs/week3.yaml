@@ -1,0 +1,18 @@
+registration:
+  max_features: 5000
+  ratio_test: 0.75
+  ransac_threshold_px: 4.0
+  minimum_matches: 20
+  minimum_inliers: 12
+  minimum_inlier_ratio: 0.35
+  maximum_reprojection_rmse_px: 5.0
+  minimum_overlap_ratio: 0.70
+  minimum_spatial_coverage: 0.04
+  minimum_scale: 0.75
+  maximum_scale: 1.33
+  maximum_rotation_degrees: 20
+
+analysis:
+  exg_threshold: 0.10
+  vegetation_overlay_alpha: 0.42
+  output_dir: artifacts/pair_analysis

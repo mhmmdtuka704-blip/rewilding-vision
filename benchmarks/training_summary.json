@@ -1,0 +1,23 @@
+{
+  "method": "Frozen pretrained SegFormer-B0 plus learned residual binary segmentation head",
+  "seed": 251025,
+  "train_images": 160,
+  "validation_images": 36,
+  "augmented_training_views": 240,
+  "trainable_parameters": 514,
+  "epochs": 5,
+  "baseline_validation": {
+    "vegetation_iou": 0.9251533656700822,
+    "dice_f1": 0.9611217289673614,
+    "pixel_accuracy": 0.9417402703836378,
+    "coverage_mae_pp": 3.542449504093082,
+    "images": 36
+  },
+  "best_validation_iou": 0.9320492763846538,
+  "deployment_approved": true,
+  "test_used_for_selection": false,
+  "elapsed_seconds": 212.7783554000016,
+  "dataset_manifest": "data/rugd_subset/manifest.csv",
+  "input_size": 512,
+  "limits": "Small domain adaptation; no guarantee on other cameras or scenes"
+}

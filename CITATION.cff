@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you discuss this project, cite the repository and separately credit the upstream SegFormer and RUGD authors."
+title: "Rewilding Vision: spatially checked vegetation-change analysis"
+type: software
+authors:
+  - name: "mhmmdtuka704-blip"
+    website: "https://github.com/mhmmdtuka704-blip"
+version: 0.2.0
+date-released: 2026-10-28
+url: "https://github.com/mhmmdtuka704-blip/rewilding-vision"
+repository-code: "https://github.com/mhmmdtuka704-blip/rewilding-vision"
+license: LicenseRef-Proprietary
+abstract: "Local CPU-friendly vegetation segmentation, quality-gated registration, shared-footprint change metrics, and QGIS-compatible exports. Research/evaluation model restrictions apply."

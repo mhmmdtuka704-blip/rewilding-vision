@@ -1,0 +1,16 @@
+Rewilding Vision — source availability notice
+
+No blanket open-source or commercial license is granted for this repository.
+Copyright holders retain their rights in the original application code and
+documentation where applicable. Public availability for portfolio/research
+review does not by itself grant additional redistribution or commercial rights.
+
+Third-party dependencies, model materials, data and trademarks remain subject
+to their respective upstream terms. In particular, the SegFormer model and
+the supplied model-related adapter are provided only for the research/evaluation
+purpose described in licenses/NVIDIA-SegFormer.txt and THIRD_PARTY_NOTICES.md.
+The upstream license continues to govern those materials.
+
+This notice does not claim ownership of NVIDIA, RUGD, theOtherDada or dependency
+authors' work. Contact the repository maintainer regarding permissions for
+original project materials. No warranty of fitness or ecological accuracy is made.

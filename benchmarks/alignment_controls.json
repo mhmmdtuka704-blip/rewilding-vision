@@ -1,0 +1,155 @@
+{
+  "identical": {
+    "registration": {
+      "accepted": true,
+      "reason": "Accepted",
+      "detected_matches": 5000,
+      "inliers": 5000,
+      "inlier_ratio": 1.0,
+      "reprojection_rmse_px": 0.0,
+      "overlap_ratio": 0.9869556025369979,
+      "spatial_coverage": 0.6079020916517665,
+      "estimated_scale": 1.0
+    },
+    "accepted": true,
+    "alignment_method": "ORB_RANSAC_similarity",
+    "change": {
+      "before_coverage_percent": 47.56495940706467,
+      "after_coverage_percent": 47.56495940706467,
+      "change_percentage_points": 0.0,
+      "gain_percent": 0.0,
+      "loss_percent": 0.0,
+      "unchanged_vegetation_percent": 47.56495940706467,
+      "evaluated_pixels": 373464,
+      "relative_change_percent": 0.0
+    },
+    "comparison_area": "Shared valid overlap in the before-image pixel grid",
+    "relative_change_note": "100 * (after vegetation pixels - before vegetation pixels) / before vegetation pixels",
+    "transform_after_to_before": [
+      [
+        1.0,
+        -0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mean_model_vegetation_score": {
+      "before": 0.46077942848205566,
+      "after": 0.46077942848205566
+    },
+    "known_transform_max_error_px": 0.0,
+    "elapsed_seconds": 1.1348950999999943,
+    "false_changed_area_percent": 0.0
+  },
+  "translation": {
+    "registration": {
+      "accepted": true,
+      "reason": "Accepted",
+      "detected_matches": 3510,
+      "inliers": 3481,
+      "inlier_ratio": 0.9917378917378917,
+      "reprojection_rmse_px": 0.958987295627594,
+      "overlap_ratio": 0.9195348837209303,
+      "spatial_coverage": 0.5580361081591797,
+      "estimated_scale": 1.0000657085748803
+    },
+    "accepted": true,
+    "alignment_method": "ORB_RANSAC_similarity",
+    "change": {
+      "before_coverage_percent": 47.50166689658344,
+      "after_coverage_percent": 47.48068699130915,
+      "change_percentage_points": -0.020979905274288058,
+      "gain_percent": 0.01322021428242976,
+      "loss_percent": 0.03420011955672047,
+      "unchanged_vegetation_percent": 47.467466777026715,
+      "evaluated_pixels": 347952,
+      "relative_change_percent": -0.04416667170852417
+    },
+    "comparison_area": "Shared valid overlap in the before-image pixel grid",
+    "relative_change_note": "100 * (after vegetation pixels - before vegetation pixels) / before vegetation pixels",
+    "transform_after_to_before": [
+      [
+        1.0000657079728703,
+        3.470012904143295e-05,
+        -25.016341467345164
+      ],
+      [
+        -3.470012904143295e-05,
+        1.0000657079728703,
+        17.987088121732903
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mean_model_vegetation_score": {
+      "before": 0.4599768817424774,
+      "after": 0.4597611129283905
+    },
+    "known_transform_max_error_px": 0.036499034613370895,
+    "elapsed_seconds": 1.7676181000006181,
+    "false_changed_area_percent": 0.04742033383915023
+  },
+  "rotation_scale_translation": {
+    "registration": {
+      "accepted": true,
+      "reason": "Accepted",
+      "detected_matches": 2931,
+      "inliers": 2905,
+      "inlier_ratio": 0.9911293074036165,
+      "reprojection_rmse_px": 1.0921080112457275,
+      "overlap_ratio": 0.8935702959830867,
+      "spatial_coverage": 0.5507626266768113,
+      "estimated_scale": 0.9615616208394684
+    },
+    "accepted": true,
+    "alignment_method": "ORB_RANSAC_similarity",
+    "change": {
+      "before_coverage_percent": 49.15845229750951,
+      "after_coverage_percent": 49.013536333981016,
+      "change_percentage_points": -0.14491596352849712,
+      "gain_percent": 0.15556285064487604,
+      "loss_percent": 0.30047881417337274,
+      "unchanged_vegetation_percent": 48.857973483336146,
+      "evaluated_pixels": 338127,
+      "relative_change_percent": -0.2947935843290137
+    },
+    "comparison_area": "Shared valid overlap in the before-image pixel grid",
+    "relative_change_note": "100 * (after vegetation pixels - before vegetation pixels) / before vegetation pixels",
+    "transform_after_to_before": [
+      [
+        0.9592273524174397,
+        -0.06695996599203499,
+        16.367255595428272
+      ],
+      [
+        0.06695996599203499,
+        0.9592273524174397,
+        -3.2751512495595096
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "mean_model_vegetation_score": {
+      "before": 0.4761221408843994,
+      "after": 0.4763612747192383
+    },
+    "known_transform_max_error_px": 0.09258736670017242,
+    "elapsed_seconds": 2.0284456000008504,
+    "false_changed_area_percent": 0.4560416648182488
+  }
+}

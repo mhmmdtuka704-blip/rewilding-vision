@@ -1,0 +1,38 @@
+# Environments, generated files and local secrets
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+.env
+.env.*
+.streamlit/secrets.toml
+*.log
+*.pid
+*.download
+.DS_Store
+Thumbs.db
+
+# Local imagery, generated output and large upstream weights
+sample_data/
+verification/
+training/
+artifacts/
+uploads/
+exports/
+model/ade20k/model.safetensors
+model/ade20k/pytorch_model.bin
+*.pt
+*.pth
+assets/tod-logo.png
+
+# Track only the recorded dataset manifest/provenance
+data/*
+!data/rugd_subset/
+data/rugd_subset/*
+!data/rugd_subset/manifest.csv
+!data/rugd_subset/provenance.json

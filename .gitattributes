@@ -1,0 +1,14 @@
+* text=auto
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.toml text eol=lf
+*.svg text eol=lf
+*.cff text eol=lf
+*.bat text eol=crlf
+*.safetensors binary
+*.png binary
+data/rugd_subset/manifest.csv -text whitespace=cr-at-eol
+model/ade20k/README.md -text whitespace=-trailing-space

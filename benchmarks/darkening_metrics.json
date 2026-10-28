@@ -1,0 +1,175 @@
+{
+  "images": 12,
+  "vegetation_iou": 0.9106304447911904,
+  "dice_f1": 0.9532250962228456,
+  "precision": 0.9353734810316835,
+  "recall": 0.971771365518281,
+  "pixel_accuracy": 0.924205866807611,
+  "coverage_mae_pp": 4.39931289640592,
+  "valid_pixels": 4540800,
+  "confusion_counts": {
+    "tp": 3506877,
+    "fp": 242296,
+    "fn": 101870,
+    "tn": 689757
+  },
+  "mean_inference_seconds": 0.4561544500000612,
+  "per_image": [
+    {
+      "image": "data/rugd_subset/images/trail-11_00001.png",
+      "sequence": "trail-11",
+      "counts_tp_fp_fn_tn": [
+        340671,
+        24318,
+        2146,
+        11265
+      ],
+      "coverage_error_pp": 5.859408033826641,
+      "predicted_coverage_percent": 96.45586680761099,
+      "labeled_coverage_percent": 90.59645877378435
+    },
+    {
+      "image": "data/rugd_subset/images/trail-11_00791.png",
+      "sequence": "trail-11",
+      "counts_tp_fp_fn_tn": [
+        294861,
+        3673,
+        1178,
+        78688
+      ],
+      "coverage_error_pp": 0.6593551797040131,
+      "predicted_coverage_percent": 78.89376321353066,
+      "labeled_coverage_percent": 78.23440803382664
+    },
+    {
+      "image": "data/rugd_subset/images/trail-11_01586.png",
+      "sequence": "trail-11",
+      "counts_tp_fp_fn_tn": [
+        318699,
+        11500,
+        8488,
+        39713
+      ],
+      "coverage_error_pp": 0.7959830866807627,
+      "predicted_coverage_percent": 87.26189217758986,
+      "labeled_coverage_percent": 86.4659090909091
+    },
+    {
+      "image": "data/rugd_subset/images/trail-12_00001.png",
+      "sequence": "trail-12",
+      "counts_tp_fp_fn_tn": [
+        315235,
+        4505,
+        22113,
+        36547
+      ],
+      "coverage_error_pp": 4.653276955602537,
+      "predicted_coverage_percent": 84.49788583509513,
+      "labeled_coverage_percent": 89.15116279069767
+    },
+    {
+      "image": "data/rugd_subset/images/trail-12_00636.png",
+      "sequence": "trail-12",
+      "counts_tp_fp_fn_tn": [
+        280543,
+        17355,
+        5919,
+        74583
+      ],
+      "coverage_error_pp": 3.022198731501058,
+      "predicted_coverage_percent": 78.72568710359408,
+      "labeled_coverage_percent": 75.70348837209302
+    },
+    {
+      "image": "data/rugd_subset/images/trail-12_01276.png",
+      "sequence": "trail-12",
+      "counts_tp_fp_fn_tn": [
+        328541,
+        13730,
+        5872,
+        30257
+      ],
+      "coverage_error_pp": 2.0766384778012736,
+      "predicted_coverage_percent": 90.45216701902748,
+      "labeled_coverage_percent": 88.37552854122622
+    },
+    {
+      "image": "data/rugd_subset/images/trail-13_00001.png",
+      "sequence": "trail-13",
+      "counts_tp_fp_fn_tn": [
+        202876,
+        15591,
+        24977,
+        134956
+      ],
+      "coverage_error_pp": 2.48044397463002,
+      "predicted_coverage_percent": 57.73440803382663,
+      "labeled_coverage_percent": 60.21485200845665
+    },
+    {
+      "image": "data/rugd_subset/images/trail-13_00311.png",
+      "sequence": "trail-13",
+      "counts_tp_fp_fn_tn": [
+        267197,
+        62374,
+        3248,
+        45581
+      ],
+      "coverage_error_pp": 15.625264270613105,
+      "predicted_coverage_percent": 87.09593023255813,
+      "labeled_coverage_percent": 71.47066596194503
+    },
+    {
+      "image": "data/rugd_subset/images/trail-13_00621.png",
+      "sequence": "trail-13",
+      "counts_tp_fp_fn_tn": [
+        337859,
+        7075,
+        5856,
+        27610
+      ],
+      "coverage_error_pp": 0.3221458773784436,
+      "predicted_coverage_percent": 91.15591966173362,
+      "labeled_coverage_percent": 90.83377378435517
+    },
+    {
+      "image": "data/rugd_subset/images/trail-14_00001.png",
+      "sequence": "trail-14",
+      "counts_tp_fp_fn_tn": [
+        198378,
+        11488,
+        14163,
+        154371
+      ],
+      "coverage_error_pp": 0.7069238900634267,
+      "predicted_coverage_percent": 55.46141649048626,
+      "labeled_coverage_percent": 56.16834038054969
+    },
+    {
+      "image": "data/rugd_subset/images/trail-14_00566.png",
+      "sequence": "trail-14",
+      "counts_tp_fp_fn_tn": [
+        334356,
+        36831,
+        1492,
+        5721
+      ],
+      "coverage_error_pp": 9.339059196617328,
+      "predicted_coverage_percent": 98.09381606765328,
+      "labeled_coverage_percent": 88.75475687103595
+    },
+    {
+      "image": "data/rugd_subset/images/trail-14_01136.png",
+      "sequence": "trail-14",
+      "counts_tp_fp_fn_tn": [
+        287661,
+        33856,
+        6418,
+        50465
+      ],
+      "coverage_error_pp": 7.251057082452428,
+      "predicted_coverage_percent": 84.96749471458773,
+      "labeled_coverage_percent": 77.71643763213531
+    }
+  ]
+}

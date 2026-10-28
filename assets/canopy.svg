@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" role="img" aria-label="Decorative canopy illustration">
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b251b"/><stop offset="1" stop-color="#315b3f"/></linearGradient>
+    <radialGradient id="light"><stop stop-color="#d0de99" stop-opacity=".6"/><stop offset="1" stop-color="#588651" stop-opacity="0"/></radialGradient>
+    <pattern id="leaves" width="150" height="140" patternUnits="userSpaceOnUse" patternTransform="rotate(-16)">
+      <path d="M20 120Q-30 30 64 12Q108 80 20 120Z" fill="#548653" opacity=".42"/>
+      <path d="M90 135Q50 48 136 32Q174 112 90 135Z" fill="#9bb578" opacity=".2"/>
+      <path d="M22 118L61 17M91 133L135 35" stroke="#b4ce8c" opacity=".2"/>
+    </pattern>
+  </defs>
+  <path fill="url(#bg)" d="M0 0h1200v400H0z"/>
+  <path fill="url(#leaves)" d="M0 0h1200v400H0z"/>
+  <ellipse cx="980" cy="80" rx="380" ry="300" fill="url(#light)"/>
+  <g fill="none" stroke="#b4c98e" opacity=".13"><path d="M500 420Q650 80 1050 0"/><path d="M610 420Q760 120 1200 70"/><path d="M720 420Q850 200 1230 150"/></g>
+</svg>

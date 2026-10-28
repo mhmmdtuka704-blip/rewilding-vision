@@ -1,0 +1,22 @@
+[theme]
+base = "dark"
+primaryColor = "#2e8060"
+backgroundColor = "#071b15"
+secondaryBackgroundColor = "#10291f"
+textColor = "#edf5e9"
+font = "sans-serif"
+headingFont = "sans-serif"
+borderColor = "#34533e"
+baseRadius = "12px"
+buttonRadius = "10px"
+showWidgetBorder = true
+headingFontWeights = [650, 600, 600, 500, 500, 500]
+
+[server]
+maxUploadSize = 100
+address = "127.0.0.1"
+
+[browser]
+gatherUsageStats = false
+[client]
+toolbarMode = "minimal"
